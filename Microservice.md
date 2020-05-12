@@ -21,7 +21,7 @@ Centralize configuration in one place.
 ### Naming Server (Spring Cloud Eureka)
 ### Ribbon (Spring Cloud Load Balancing)
 ### Feign (Easier REST Client)
-
+Feign is a REST service client, which defines an interface as a porxy, with which we can consume an HTTP service.
 ## VISIBILITY AND MONITORING
 ### Zipkin Distributed Tracing
 ### Netflix API Gateway 
