@@ -5,16 +5,16 @@ import lombok.Getter;
 @Getter
 public class LimitConfiguration {
 
-  private int maximun;
-  private int minimun;
+  private int maximum;
+  private int minimum;
 
   protected LimitConfiguration() {
 
   }
 
-  public LimitConfiguration(int maximun, int minimun) {
+  public LimitConfiguration(int maximum, int minimun) {
     super();
-    this.maximun = maximun;
-    this.minimun = minimun;
+    this.maximum = maximum;
+    this.minimum = minimun;
   }
 }
